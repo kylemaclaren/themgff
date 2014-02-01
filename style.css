@@ -1,0 +1,15 @@
+/*------------------------------------------------------------------
+main layout
+------------------------------------------------------------------*/
+body{background:#fff;}
+#content{width:50%;margin:20px auto;text-align:center;}
+#logo.big{width:75%;padding-top:35%;}
+#logo.small{width:320px;padding-bottom:20px;}
+/*------------------------------------------------------------------
+mobile layout
+------------------------------------------------------------------*/
+@media screen and (max-width : 620px) {
+#content{width:75%;}
+#logo.big{width:250px;padding-top:25%;}
+#logo.small{width:250px;}
+}
